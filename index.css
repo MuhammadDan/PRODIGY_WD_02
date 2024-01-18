@@ -125,10 +125,14 @@ body{
     border: 2px solid orangered;
     cursor: pointer;
 }
-@media (max-width: 768px){
+@media (max-width: 390px){
+    body{
+        width: 75%;
+        height: 50vh;
+    }
     .outercircle{
-        margin-right: 6vh;
-        margin-bottom: 50vh;
+        margin-left: -35px;
+        margin-bottom: 6vh;
         width: 200px;
         height: 200px;
         border-radius: 50%;
@@ -151,21 +155,26 @@ body{
         display: flex;
         justify-content: center;
         align-items: center;
-        left: 32vh;
-        top: 18vh;
+        left: -2vh;
+        top: 12vh;
     }
     .button{
-        margin-left: 4vh;
+        margin-left: 3vh;
     }
     .laps{
         position: absolute;
-        left:30vh;
-        top: 52vh;
-        height: 230px;
+        left:2vh;
+        top: 47vh;
+        height: 150px;
+        width: 220px;
+        background-color: aqua;
+    }
+    .li-items{
+        margin-left: 18px;
     }
     .lap_item_cleartwo{
        position: absolute;
-       top: 50vh; 
-       left: 20vh;
+       top: 45vh; 
+       left: 2vh;
     }
 }
