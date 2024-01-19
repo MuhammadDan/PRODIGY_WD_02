@@ -164,7 +164,7 @@ body{
         left: 2vh;
         top: 33vh;
         height: 5vh;
-        background-color: brown;
+        /* background-color: brown; */
     }
     .button{
         margin-left: 3vh;
