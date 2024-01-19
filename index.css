@@ -6,8 +6,8 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
-    width: 100%;
-    height: 100vh;
+    /* width: 100%;
+    height: 100vh; */
     background-color: gray;
     justify-content: center;
     align-items: center;
@@ -24,6 +24,7 @@ body{
     position: relative;
 } */
 .outercircle{
+    margin-top: 15vh;
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -49,8 +50,8 @@ body{
 .buttonwrapper{
     position: absolute;
     display: flex;
-    left: 75vh;
-   bottom: 28vh;
+    left: 77vh;
+   bottom: 38vh;
 }
 .button{
     width: 60px;
@@ -68,11 +69,11 @@ body{
 .laps{
     position: absolute;
     width: 330px;
-    height: 100px;
+    height: 150px;
     color: white;
     overflow: auto;
     position: absolute;
-    top:75vh;
+    top:68vh;
     list-style: none;
     cursor: pointer;
     /* background-color: blue; */
@@ -116,8 +117,8 @@ body{
     display: block;
     position: absolute;
     z-index: 2000;
-    top: 76vh;
-    left: 65vh;
+    top: 65vh;
+    left: 68vh;
     width: 55px;
     background-color: transparent;
     color: white;
@@ -126,19 +127,24 @@ body{
     cursor: pointer;
 }
 @media (max-width: 390px){
-    body{
+    /* body{
         width: 75%;
         height: 50vh;
-    }
+    } */
     .outercircle{
-        margin-left: -35px;
-        margin-bottom: 6vh;
+        margin-right: 6vh;
+        margin-top: 5vh;
         width: 200px;
         height: 200px;
         border-radius: 50%;
         background-color: white;
         display: flex;
         align-items: center;
+    }
+    .container{
+        /* background-color: yellow; */
+        width: 25vh;
+        margin-right: 9vh;
     }
     .innercircle{
         position: relative;
@@ -155,19 +161,19 @@ body{
         display: flex;
         justify-content: center;
         align-items: center;
-        left: -2vh;
-        top: 12vh;
+        left: 2vh;
+        top: 6vh;
     }
     .button{
         margin-left: 3vh;
     }
     .laps{
         position: absolute;
-        left:2vh;
+        left: 5vh;
         top: 47vh;
         height: 150px;
         width: 220px;
-        background-color: aqua;
+        /* background-color: aqua; */
     }
     .li-items{
         margin-left: 18px;
