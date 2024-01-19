@@ -162,7 +162,7 @@ body{
         justify-content: center;
         align-items: center;
         left: 2vh;
-        top: 9vh;
+        top: 12vh;
     }
     .button{
         margin-left: 3vh;
@@ -170,7 +170,7 @@ body{
     .laps{
         position: absolute;
         left: 5vh;
-        top: 47vh;
+        top: 43vh;
         height: 150px;
         width: 220px;
         /* background-color: aqua; */
@@ -180,7 +180,7 @@ body{
     }
     .lap_item_cleartwo{
        position: absolute;
-       top: 45vh; 
+       top: 40vh; 
        left: 2vh;
     }
 }
