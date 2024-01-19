@@ -162,7 +162,9 @@ body{
         justify-content: center;
         align-items: center;
         left: 2vh;
-        top: 12vh;
+        top: 33vh;
+        height: 5vh;
+        /* background-color: brown; */
     }
     .button{
         margin-left: 3vh;
